@@ -16,7 +16,7 @@ include 'ft.php';
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.php"><img src="img/logo.png" style="height: 50px; width: auto; max-width: 100%;"></a>
+  <a class="navbar-brand" href="index.php"><h1>Мкино</h1></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
