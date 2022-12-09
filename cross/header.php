@@ -6,7 +6,7 @@ include 'ft.php';
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Cross Cinema</title>
+	<title>Mкнио</title>
 
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
