@@ -41,7 +41,7 @@ if (isset($_POST['submit'])) {
 	$query = "INSERT INTO `genre`( `genre_name`, `category_id`, `genreid`) VALUES ('$gename',$catid,$genre)"; 
 	$run = mysqli_query($con,$query);
 	if ($run) {
-		echo "<script>alert('Genre Successfully Added.. :)');window.location.href='genrelist.php';</script>";
+		echo "<script>alert('Амилттай :)');window.location.href='genrelist.php';</script>";
 	}
 	else{
 		echo "<script>alert('Something Went Wrong :(');window.location.href='addgenre.php';</script>";

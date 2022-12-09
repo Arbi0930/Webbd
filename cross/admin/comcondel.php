@@ -13,7 +13,7 @@ if ($run) {
 	echo "<script>alert('Request Has Been Deleted!!');window.location.href='contact.php';</script>";
 }
 else{
-	echo "<script>alert('somthing went wrong!!'); window.location.href='contact.php';</script>";
+	echo "<script>alert('Амжилттай'); window.location.href='contact.php';</script>";
 	}
 }
 else{

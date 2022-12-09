@@ -23,7 +23,7 @@ if (isset($_GET['id'])) {
 		$query = " UPDATE `genre` SET `genre_name`='$genrename1',`category_id`=$cat_id,`genreid`=$genreid1 WHERE id=$id ";
 		$run = mysqli_query($con,$query);
 		if ($run) {
-			echo "<script>alert('Genre Successfully Updated.. :)');window.location.href='genrelist.php';</script>";
+			echo "<script>alert('Амжилттай :)');window.location.href='genrelist.php';</script>";
 		}
 		else{
 			echo "<script>alert('Something Went Wrong');window.location.href='editgenre.php';</script>";
